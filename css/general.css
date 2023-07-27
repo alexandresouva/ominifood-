@@ -89,7 +89,7 @@ strong {
   font-weight: 600;
   text-decoration: none;
   
-  border-radius: 9px;  
+  border-radius: 9px;
   transition: background-color .3s;
 }
 
@@ -152,3 +152,7 @@ strong {
   color: #cf711f;
   margin-bottom: 1.6rem;
 }
+
+/* ------------------------ */
+/* UTILITIES CLASS */
+/* ------------------------ */
