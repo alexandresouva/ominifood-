@@ -80,6 +80,30 @@ strong {
   border-bottom: 1px solid transparent;
 }
 
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1.6rem;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  font-size: 1.8rem;
+}
+
+.list-item--inactive .list-icon {
+  color: transparent;
+}
+
+.list-icon {
+  font-size: 3rem;
+  color: #cf711f;
+}
+
+
 .btn:link, 
 .btn:visited {
   display: inline-block;
