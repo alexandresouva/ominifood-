@@ -64,18 +64,22 @@ strong {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .grid--center-v {
   align-items: center;
 }
 
 .link:link,
 .link:visited {
-  display: inline-block; 
+  display: inline-block;
   color: #e67e22;
-  text-decoration: none; 
-  border-bottom: 1px solid currentColor; 
-  padding-bottom: 2px; 
-  transition: all .3s;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
 }
 
 .link:hover,
@@ -107,45 +111,44 @@ strong {
   color: #cf711f;
 }
 
-
-.btn:link, 
+.btn:link,
 .btn:visited {
   display: inline-block;
   padding: 1.6rem 3.2rem;
-  
+
   font-size: 2rem;
   font-weight: 600;
   text-decoration: none;
-  
+
   border-radius: 9px;
-  transition: background-color .3s;
+  transition: background-color 0.3s;
 }
 
-.btn--full:link, 
+.btn--full:link,
 .btn--full:visited {
   color: #fff;
   background-color: #e67e22;
 }
 
-.btn--full:hover, 
+.btn--full:hover,
 .btn--full:active {
   background-color: #cf711f;
 }
 
-.btn--outline:link, 
+.btn--outline:link,
 .btn--outline:visited {
   color: inherit;
-  background-color: #fff;  
+  background-color: #fff;
 }
 
-.btn--outline:hover, 
+.btn--outline:hover,
 .btn--outline:active {
   background-color: #fdf2e9;
   box-shadow: inset 0 0 0 3px #fff;
 }
 
-.heading-primary, 
-.heading-secondary, 
+.heading-primary,
+.heading-secondary,
 .heading-tertiary {
   color: #333;
   font-weight: 700;
@@ -155,7 +158,7 @@ strong {
 .heading-primary {
   font-size: 5.2rem;
   line-height: 1.05;
-  margin-bottom: 3.2rem;  
+  margin-bottom: 3.2rem;
 }
 
 .heading-secondary {
@@ -174,7 +177,7 @@ strong {
   display: block;
   font-size: 1.6rem;
   font-weight: 500;
-  letter-spacing: .75px;
+  letter-spacing: 0.75px;
   text-transform: uppercase;
 
   color: #cf711f;
