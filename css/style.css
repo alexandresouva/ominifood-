@@ -51,6 +51,20 @@
   background-color: #cf711f;
 }
 
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.icon-mobile-nav {
+  height: 4.6rem;
+  width: 4.6rem;
+  color: #333;
+
+  display: none;
+}
 /* ------------------------ */
 /* HERO SECTION */
 /* ------------------------ */
