@@ -114,6 +114,7 @@ strong {
   color: #cf711f;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
