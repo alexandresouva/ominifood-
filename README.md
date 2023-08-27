@@ -1,4 +1,4 @@
-<div align="center"><img src="img/page_preview.gif"></div>
+<div align="center"><img src="img/page_preview.jpg"></div>
 <h1 align="center">Ominifood</h1>
 
 <p align="center">
